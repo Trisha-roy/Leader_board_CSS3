@@ -71,3 +71,35 @@ hr{
     font-size: 16px;
     text-decoration: none;
 }
+/* --------
+latest course 
+--------------*/
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+.course-banner img{
+    width: 266px;
+    height: 141px;
+}
+.course-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.class-duration{
+    background-color: #ED6B4F;
+    color: whitesmoke;
+    border-radius: 20px;
+    font-size: 14.6913px;
+}
